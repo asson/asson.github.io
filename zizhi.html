@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>资质查询-工匠时代官方网站</title>
+        <meta name="description" content="工匠时代栏目，是为了响应总书记的“三个转变”重要论述，传达总理在政府工作报告中提出的“培育众多中国工匠，大力弘扬工匠精神，厚植工匠文化”的重要指示，在央视数字频道黄金时段隆重推出的一档由央视一线主持阵容团队和高精制作团队构成的大型工匠专题纪录片栏目。栏目围绕“匠人匠心匠品”三个主题，独具故事性，真实性和使命感。匠人～描述企业家的创业故事，不忘初心，砥砺前行；匠品～展现企业的产品和服务，坚守品质，创造价值；匠心～传递企业的使命，回馈社会，弘扬匠心。                  工匠时代栏目，必将成为影响这个时代工匠们的先导！必将成为一档受广大匠者喜爱的知名节目！工匠时代栏目，与时代匠者同行！">
+        <meta name="keywords" content="工匠时代，工匠时代官网，老故事频道，工匠时代栏目，工匠精神，匠人，匠心，匠品，工匠时代纪录片，工匠时代栏目组，工匠时代栏目官方网站，CCTV老故事频道工匠时代，CCTV工匠时代">
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" href="css/rmodal-no-bootstrap.css" type="text/css" />
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/zizhi.css" rel="stylesheet">
+    </head>
+    <body id="page-top">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top" style="z-index:88;">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="index.html"><img src="images/logoss.png" alt="Sanza theme logo"></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="index.html">首页</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="about.html">关于我们</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="video-list.html">栏目作品赏析</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="zizhi.html">资质查询</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <!-- Header -->
+       <!--  <header>
+            <div class="container-fluid">
+                <div class="slider-container">
+
+                        <div class="owl-slider owl-carousel">
+                            <div class="item">
+                                <div class="owl-slider-item">
+                                    <img src="images/demo/slider-1.jpg" class="img-responsive" alt="portfolio">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="owl-slider-item">
+                                    <img src="images/shelter.jpg" class="img-responsive" alt="portfolio">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="owl-slider-item">
+                                    <img src="images/road.jpg" class="img-responsive" alt="portfolio">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="owl-slider-item">
+                                    <img src="images/sea.jpg" class="img-responsive" alt="portfolio">
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </header> -->
+
+        <section id="about" class="light-bg" style="padding-bottom:0;">
+            <div class="container" id="zizhi">
+                <div id="zizhi_tops">
+                    <!-- <img src="images/logoss.png" alt=""> -->
+                    <h2>查询中心</h2>
+                </div>
+                <div class="query">
+                    <div class="query-inner">
+                        <form class="form-horizontal" style="margin-top: 35px;">
+                          <div class="form-group">
+                            <label for="selectValue" class="col-sm-4 control-label">选择类型</label>
+                            <div class="col-sm-8">
+                               <select class="form-control" id="selectValue">
+                                  <option value="customer">工匠时代工作人员</option>
+                                  <option value="service">工匠时代服务中心</option>
+                                </select>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="inputSearch" class="col-sm-4 control-label">请输入查询内容</label>
+                            <div class="col-sm-8">
+                              <input type="text" class="form-control" id="inputSearch">
+                              <p class="bg-danger showError" style="font-size:12px;font-weight:bold;">请输入有效的内容</p>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-sm-offset-4 col-sm-8">
+                              <button type="button" id="showModal"  class="btn btn-primary">点击查询</button>
+                            </div>
+                          </div>
+                        </form>
+
+                    </div>
+                </div>
+                <div class="htmleaf-container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <!-- <a href="#" id="showModal" class="btn btn-success">显示模态对话框</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--模态窗口-->
+                <div id="modal" class="modal">
+                    <div class="modal-dialog animated">
+                        <div class="modal-content">
+                            <form class="form-horizontal" method="get">
+                                <!-- <div class="modal-header">
+                                    <strong>HELLO，我是一个对话框！</strong>
+                                </div> -->
+
+                                <div class="modal-body">
+                                    <div class="modals_header">
+                                        <img src="images/logoss.png" alt="Sanza theme logo">
+                                        <span>工匠时代栏目评审中心</span>
+                                        <i class="fa fa-close face_zizhi" onclick="modal.close();" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="modals_content">
+                                        <div class="modals_renyuan">
+                                            <div class="col-sm-4 modals_left">
+                                                <img id="modals_img" src="" alt="" width="206">
+                                            </div>
+                                            <div class="col-sm-offset-1 col-sm-7 modals_right">
+                                                <form class="form-horizontal" style="margin-top: 35px;">
+                                                  <div class="form-group col-sm-12">
+                                                    <label class="col-sm-12 control-label" style="text-align:left;padding-left:0;">姓名</label>
+                                                    <input type="text" id="username" readonly class="col-sm-12 form-control">
+                                                  </div>
+                                                  <div class="form-group col-sm-12">
+                                                    <label class="col-sm-12 control-label" style="text-align:left;padding-left:0;">性别</label>
+                                                      <input type="text" id="sex" readonly class="col-sm-12 form-control">
+                                                  </div>
+                                                  <div class="form-group col-sm-12">
+                                                    <label class="col-sm-12 control-label" style="text-align:left;padding-left:0;">职务</label>
+                                                      <input type="text" id="position" readonly class="col-sm-12 form-control">
+                                                  </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="modals_fuwu">
+                                            <div class="col-sm-offset-1 col-sm-10 modals_right">
+                                                <form class="form-horizontal" style="margin-top: 35px;">
+                                                  <div class="form-group col-sm-12">
+                                                    <label class="col-sm-12 control-label" style="text-align:left;padding-left:0;">服务中心名称</label>
+                                                    <input type="text" id="username" value="北京上为信文化传播有限公司" readonly class="col-sm-12 form-control">
+                                                  </div>
+                                                  <div class="form-group col-sm-12">
+                                                    <label class="col-sm-12 control-label" style="text-align:left;padding-left:0;">服务中心地址</label>
+                                                      <input type="text" id="sex" value="北京丰台区南三环西路搜宝商务中心3号楼801" readonly class="col-sm-12 form-control">
+                                                  </div>
+                                                  <div class="form-group col-sm-12">
+                                                    <label class="col-sm-12 control-label" style="text-align:left;padding-left:0;">联系方式</label>
+                                                      <input type="text" id="position" value="010-52225188" readonly class="col-sm-12 form-control">
+                                                  </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="form-group">
+                                        <label for="dummyText" class="control-label col-xs-4">描述文本</label>
+                                        <div class="input-group col-xs-7">
+                                            <input type="text" name="dummyText" id="dummyText" class="form-control" />
+                                        </div>
+                                    </div> -->
+                                </div>
+
+                                <!-- <div class="modal-footer">
+                                    <button class="btn btn-default" type="button" onclick="modal.close();">取消</button>
+                                    <button class="btn btn-primary" type="submit" onclick="modal.close();">保存</button>
+                                </div> -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </section>
+
+
+        <!-- 合作伙伴 -->
+        <!-- <section id="partners">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="section-title">
+                            <h2>Our Partners</h2>
+                            <p>Mida sit una namet, cons uectetur adipiscing adon elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="owl-partners owl-carousel">
+                            <div class="item">
+                                <div class="partner-logo"><img src="images/demo/partners-1.png" alt="partners"></div>
+                            </div>
+                            <div class="item">
+                                <div class="partner-logo"><img src="images/demo/partners-2.png" alt="partners"></div>
+                            </div>
+                            <div class="item">
+                                <div class="partner-logo"><img src="images/demo/partners-3.png" alt="partners"></div>
+                            </div>
+                            <div class="item">
+                                <div class="partner-logo"><img src="images/demo/partners-4.png" alt="partners"></div>
+                            </div>
+                            <div class="item">
+                                <div class="partner-logo"><img src="images/demo/partners-5.png" alt="partners"></div>
+                            </div>
+                            <div class="item">
+                                <div class="partner-logo"><img src="images/demo/partners-6.png" alt="partners"></div>
+                            </div>
+                            <div class="item">
+                                <div class="partner-logo"><img src="images/demo/partners-7.png" alt="partners"></div>
+                            </div>
+                            <div class="item">
+                                <div class="partner-logo"><img src="images/demo/partners-8.png" alt="partners"></div>
+                            </div>
+                            <div class="item">
+                                <div class="partner-logo"><img src="images/demo/partners-9.png" alt="partners"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+        <p id="back-top">
+            <a href="#top"><i class="fa fa-angle-up"></i></a>
+        </p>
+        <footer>
+            <div class="container footer-copy">
+                <!-- <p>Theme made by MOOZThemes More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p> -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>特此声明</h3>
+                        <ul class="copyleft">
+                            <li>北京轻时代文化传播有限公司版权所有</li>
+                            <li>北京上为信文化传播有限公司版权所有</li>
+                            <li><img src="./images/beian.png" style="width: 17px;margin-right: 4px;margin-top: -2px;" alt="">京ICP备18039124号</li>
+                            <li><a class="img_id_show">广播电视节目制作许可证（京）字第11227号</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>联系我们</h3>
+                        <ul class="copyleft">
+                            <li>地 址：北京南三环西路搜宝商务中心3号楼805</li>
+                            <li>电 话：010-52225188</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- <h3>加入我们</h3>
+                        <ul class="copyleft">
+                            <li><a href="#">关于我们</a></li>
+                            <li><a href="#">加入我们</a></li>
+                            <li><a href="#">选题申请入口</a></li>
+                        </ul> -->
+                        <h3>关注我们</h3>
+                        <ul class="copyleft">
+                            <li>
+                                <img src="images/wx_logo.jpg" alt="微信公众号" class="wx_logos">
+                                <p>微信公众号</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div id="mask">
+            <div id="new-show">
+                <div class="closeBtn"> X </div>
+                <!-- 查看原网页 -->
+                <!-- <embed src="" allowfullscreen="true" quality="high" width="600" height="400" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash"> -->
+
+                <!-- 精 -->
+                <video src="" width="659" height="370" id="videoModel" controls autobuffer  preload="auto"></video>
+
+            </div>
+        </div>
+
+        <div id="mask01">
+            <div id="new-show01">
+                <div class="closeBtn01"> X </div>
+                <img src="./images/img_index_alert.jpg" id="imgModel01"  width="800" alt="">
+            </div>
+        </div>
+
+        <!-- Bootstrap core JavaScript
+            ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/cbpAnimatedHeader.js"></script>
+        <script src="js/jquery.appear.js"></script>
+        <script src="js/SmoothScroll.min.js"></script>
+        <script src="js/theme-scripts.js"></script>
+        <script src="js/html5media.min.js"></script>
+        <script src="js/index.js"></script>
+        <script type="text/javascript" src="js/rmodal.js"></script>
+        <script type="text/javascript" src="js/zizhi.js"></script>
+    </body>
+</html>
