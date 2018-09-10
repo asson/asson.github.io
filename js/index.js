@@ -4,7 +4,7 @@ $(function(){
     $('#videoShow .thumbnail a').on('click',function(){
         $('#new-show').find('video').attr('src','')
         var videoSrc = $(this).attr('data-video');
-        var newSrc = './images/videos/'+videoSrc+'.mp4';
+        var newSrc = 'http://www.chinagjsd.com/images/videos/'+videoSrc+'.mp4';
         $('#new-show').find('video').attr('src',newSrc);
         // console.log(newSrc)
         // console.log($('#new-show').find('embed').eq(0))
