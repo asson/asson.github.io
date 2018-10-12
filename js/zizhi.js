@@ -2,7 +2,7 @@ $(function(){
     var datas = [
     {name:'白霞', sex: '女', position: '制片主任', image: "./images/zizhi/flaking_01.jpg"},
     {name:'程品', sex: '男', position: '制片主任', image: "./images/zizhi/flaking_02.jpg"},
-    {name:'丁现义', sex: '男', position: '制片主任', image: "./images/zizhi/flaking_03.jpg"},
+//     {name:'丁现义', sex: '男', position: '制片主任', image: "./images/zizhi/flaking_03.jpg"},
     {name:'付佳利', sex: '男', position: '制片主任', image: "./images/zizhi/flaking_04.jpg"},
     {name:'李然', sex: '男', position: '制片主任', image: "./images/zizhi/flaking_05.jpg"},
     {name:'李校红', sex: '女', position: '制片主任', image: "./images/zizhi/flaking_06.jpg"},
